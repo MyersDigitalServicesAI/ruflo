@@ -191,6 +191,34 @@ grep -q "execCli(\[\s*'-y'\s*,\s*'metaharness@latest'" "$F" 2>/dev/null || \
 grep -q "cwd: opts" "$F" || miss="$miss no-cwd-passthrough"
 [[ -z "$miss" ]] && ok || bad "$miss"
 
+step "17z68. SKILL.md description + argument-hint frontmatter populated (iter 105)"
+miss=""
+# Companion to iter-104's allowed-tools gate.
+#   description: agents use this to PICK which skill to invoke
+#                (Claude Code's skill registry surfaces it in tool listings)
+#   argument-hint: agents use this to know what args the skill expects
+# Missing or empty: the skill is invisible OR uncallable correctly.
+SKILLS_DIR="$ROOT/skills"
+COUNT=0
+for d in "$SKILLS_DIR"/*/; do
+  COUNT=$((COUNT + 1))
+  base=$(basename "$d")
+  desc=$(grep "^description:" "$d/SKILL.md" 2>/dev/null | head -1 \
+    | sed -E 's/^description:[ \t]*//')
+  hint=$(grep "^argument-hint:" "$d/SKILL.md" 2>/dev/null | head -1 \
+    | sed -E 's/^argument-hint:[ \t]*//')
+  # description must be ≥ 20 chars (otherwise it's a stub, useless to agents)
+  if [[ ${#desc} -lt 20 ]]; then
+    miss="$miss ${base}-description-too-short:${#desc}"
+  fi
+  # argument-hint must be present (even if "no args" → empty quoted string ok)
+  if ! grep -q "^argument-hint:" "$d/SKILL.md" 2>/dev/null; then
+    miss="$miss ${base}-no-argument-hint"
+  fi
+done
+[[ "$COUNT" -ge 6 ]] || miss="$miss skill-count-too-low:$COUNT"
+[[ -z "$miss" ]] && ok || bad "$miss"
+
 step "17z67. SKILL.md frontmatter has non-empty allowed-tools (iter 104)"
 miss=""
 # Every SKILL.md needs `allowed-tools:` populated. Empty/missing means
