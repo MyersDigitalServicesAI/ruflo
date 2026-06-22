@@ -27,3 +27,5 @@ export { guidanceTools } from './guidance-tools.js';
 export { autopilotTools } from './autopilot-tools.js';
 // ADR-150 — MetaHarness MCP tools (score / genome / mcp-scan / threat-model / oia-audit)
 export { metaharnessTools } from './metaharness-tools.js';
+// ADR-175-inspired — Test-Driven Repair via headless `claude -p`
+export { testgenTools } from './testgen-tools.js';
