@@ -2027,12 +2027,13 @@ grep -q "result has 'success'" "$F" || miss="$miss no-success-assertion"
 grep -q "result has 'data'" "$F" || miss="$miss no-data-assertion"
 grep -q "result has 'degraded'" "$F" || miss="$miss no-degraded-assertion"
 grep -q "result has 'exitCode'" "$F" || miss="$miss no-exitcode-assertion"
-# All 9 tool names enumerated (similarity iter 36, drift_from_history iter 54)
-for tool in metaharness_score metaharness_genome metaharness_mcp_scan metaharness_threat_model metaharness_oia_audit metaharness_audit_list metaharness_audit_trend metaharness_similarity metaharness_drift_from_history; do
+# All 12 tool names enumerated (similarity iter 36, drift_from_history iter 54,
+# ADR-153 added bench/evolve/security_bench)
+for tool in metaharness_score metaharness_genome metaharness_mcp_scan metaharness_threat_model metaharness_oia_audit metaharness_audit_list metaharness_audit_trend metaharness_similarity metaharness_drift_from_history metaharness_bench metaharness_evolve metaharness_security_bench; do
   grep -q "${tool}" "$F" || miss="$miss missing-${tool}"
 done
-# Count assertion must match iter-54 expansion (8 → 9)
-grep -q "tools.length === 9" "$F" || miss="$miss tool-count-assertion-stale"
+# Count assertion must match iter-54 expansion (8 → 9), then ADR-153 (9 → 12)
+grep -q "tools.length === 12" "$F" || miss="$miss tool-count-assertion-stale"
 # Graceful skip when dist absent (so the script is smoke-runnable pre-build)
 grep -q "SKIPPED" "$F" || miss="$miss no-skip-doc"
 [[ -z "$miss" ]] && ok || bad "$miss"
