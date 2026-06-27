@@ -46,9 +46,15 @@ Phase 1 enforces at the **send** side. Phase 2 (peer state machine: ACTIVE / SUS
 
 | Command | Description |
 |---------|-------------|
-| `/federation-init` | Generate keypair and initialize federation on this node |
-| `/federation-status` | Show peers, sessions, trust levels, and health |
-| `/federation-audit` | Query structured audit logs with compliance filtering |
+| `/federation <subcommand>` | Dispatcher for `init`, `join`, `leave`, `peers`, `send`, `status`, `audit`, `trust`, `config` (see [`commands/federation.md`](commands/federation.md)) |
+
+## Skills (auto-invoked by description)
+
+| Skill | When it triggers |
+|-------|------------------|
+| `federation-init` | Initialize this node — generate keypair and configure peers |
+| `federation-status` | "is federation healthy?", "show peers", "federation status" |
+| `federation-audit` | Query audit logs with compliance / severity / date filters |
 
 ## Agents
 
