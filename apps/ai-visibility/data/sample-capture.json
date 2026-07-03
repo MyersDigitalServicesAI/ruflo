@@ -1,0 +1,1190 @@
+{
+  "meta": {
+    "capturedAt": "2026-07-01T00:00:00Z",
+    "period": "2026-W27"
+  },
+  "brand": {
+    "name": "Summit Roofing Co",
+    "aliases": [
+      "Summit Roofing",
+      "Summit"
+    ],
+    "domain": "summitroofing.com"
+  },
+  "competitors": [
+    {
+      "name": "Peak Ridge Roofing",
+      "aliases": [
+        "Peak Ridge"
+      ],
+      "domain": "peakridgeroofing.com"
+    },
+    {
+      "name": "AllWeather Exteriors",
+      "aliases": [
+        "AllWeather"
+      ],
+      "domain": "allweatherexteriors.com"
+    },
+    {
+      "name": "Cascade Roof Pros",
+      "aliases": [
+        "Cascade"
+      ],
+      "domain": "cascaderoofpros.com"
+    }
+  ],
+  "surfaces": [
+    "chatgpt",
+    "google-ai",
+    "perplexity",
+    "gemini"
+  ],
+  "results": [
+    {
+      "prompt": "best roofing company in Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": true,
+          "position": 3,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "yelp.com",
+        "bbb.org",
+        "houzz.com",
+        "summitroofing.com",
+        "blog.summitroofing.com",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "best roofing company in Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 3,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": true,
+          "position": 4,
+          "sentiment": "negative"
+        }
+      ],
+      "citedSources": [
+        "angi.com",
+        "reddit.com/r/Roofing",
+        "thumbtack.com"
+      ]
+    },
+    {
+      "prompt": "best roofing company in Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "google.com/maps",
+        "houzz.com",
+        "nextdoor.com"
+      ]
+    },
+    {
+      "prompt": "best roofing company in Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "bbb.org",
+        "thumbtack.com",
+        "yelp.com"
+      ]
+    },
+    {
+      "prompt": "roof replacement cost in Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "reddit.com/r/Roofing",
+        "nextdoor.com",
+        "angi.com",
+        "summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "roof replacement cost in Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Cascade",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "houzz.com",
+        "yelp.com",
+        "google.com/maps",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "roof replacement cost in Denver",
+      "surface": "perplexity",
+      "entities": [],
+      "citedSources": [
+        "thumbtack.com",
+        "angi.com",
+        "bbb.org"
+      ]
+    },
+    {
+      "prompt": "roof replacement cost in Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "nextdoor.com",
+        "google.com/maps",
+        "reddit.com/r/Roofing"
+      ]
+    },
+    {
+      "prompt": "metal roofing contractors near me Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": false,
+          "position": 3,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": true,
+          "position": 4,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "yelp.com",
+        "bbb.org",
+        "houzz.com",
+        "summitroofing.com",
+        "blog.summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "metal roofing contractors near me Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 3,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "angi.com",
+        "reddit.com/r/Roofing",
+        "thumbtack.com"
+      ]
+    },
+    {
+      "prompt": "metal roofing contractors near me Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Summit",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "negative"
+        }
+      ],
+      "citedSources": [
+        "google.com/maps",
+        "houzz.com",
+        "nextdoor.com",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "metal roofing contractors near me Denver",
+      "surface": "gemini",
+      "entities": [],
+      "citedSources": [
+        "bbb.org",
+        "thumbtack.com",
+        "yelp.com"
+      ]
+    },
+    {
+      "prompt": "emergency roof repair Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "negative"
+        }
+      ],
+      "citedSources": [
+        "reddit.com/r/Roofing",
+        "nextdoor.com",
+        "angi.com",
+        "summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "emergency roof repair Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "houzz.com",
+        "yelp.com",
+        "google.com/maps"
+      ]
+    },
+    {
+      "prompt": "emergency roof repair Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "thumbtack.com",
+        "angi.com",
+        "bbb.org"
+      ]
+    },
+    {
+      "prompt": "emergency roof repair Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "nextdoor.com",
+        "google.com/maps",
+        "reddit.com/r/Roofing",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "top rated residential roofers in Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Cascade",
+          "mentioned": true,
+          "linked": false,
+          "position": 3,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "yelp.com",
+        "bbb.org",
+        "houzz.com",
+        "summitroofing.com",
+        "blog.summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "top rated residential roofers in Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "angi.com",
+        "reddit.com/r/Roofing",
+        "thumbtack.com"
+      ]
+    },
+    {
+      "prompt": "top rated residential roofers in Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "google.com/maps",
+        "houzz.com",
+        "nextdoor.com"
+      ]
+    },
+    {
+      "prompt": "top rated residential roofers in Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "bbb.org",
+        "thumbtack.com",
+        "yelp.com"
+      ]
+    },
+    {
+      "prompt": "hail damage roof repair companies Colorado",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "reddit.com/r/Roofing",
+        "nextdoor.com",
+        "angi.com",
+        "summitroofing.com",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "hail damage roof repair companies Colorado",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "houzz.com",
+        "yelp.com",
+        "google.com/maps"
+      ]
+    },
+    {
+      "prompt": "hail damage roof repair companies Colorado",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "thumbtack.com",
+        "angi.com",
+        "bbb.org"
+      ]
+    },
+    {
+      "prompt": "hail damage roof repair companies Colorado",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "negative"
+        }
+      ],
+      "citedSources": [
+        "nextdoor.com",
+        "google.com/maps",
+        "reddit.com/r/Roofing"
+      ]
+    },
+    {
+      "prompt": "roofing companies in Denver with financing",
+      "surface": "chatgpt",
+      "entities": [],
+      "citedSources": [
+        "yelp.com",
+        "bbb.org",
+        "houzz.com",
+        "summitroofing.com",
+        "blog.summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "roofing companies in Denver with financing",
+      "surface": "google-ai",
+      "entities": [],
+      "citedSources": [
+        "angi.com",
+        "reddit.com/r/Roofing",
+        "thumbtack.com",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "roofing companies in Denver with financing",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Summit",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "negative"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "google.com/maps",
+        "houzz.com",
+        "nextdoor.com"
+      ]
+    },
+    {
+      "prompt": "roofing companies in Denver with financing",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": true,
+          "position": 3,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Cascade",
+          "mentioned": true,
+          "linked": false,
+          "position": 4,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "bbb.org",
+        "thumbtack.com",
+        "yelp.com"
+      ]
+    },
+    {
+      "prompt": "best gutter and roof installers Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "reddit.com/r/Roofing",
+        "nextdoor.com",
+        "angi.com",
+        "summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "best gutter and roof installers Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "houzz.com",
+        "yelp.com",
+        "google.com/maps"
+      ]
+    },
+    {
+      "prompt": "best gutter and roof installers Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": false,
+          "position": 3,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "thumbtack.com",
+        "angi.com",
+        "bbb.org",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "best gutter and roof installers Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "nextdoor.com",
+        "google.com/maps",
+        "reddit.com/r/Roofing"
+      ]
+    },
+    {
+      "prompt": "commercial flat roofing contractors Denver",
+      "surface": "chatgpt",
+      "entities": [],
+      "citedSources": [
+        "yelp.com",
+        "bbb.org",
+        "houzz.com",
+        "summitroofing.com",
+        "blog.summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "commercial flat roofing contractors Denver",
+      "surface": "google-ai",
+      "entities": [],
+      "citedSources": [
+        "angi.com",
+        "reddit.com/r/Roofing",
+        "thumbtack.com"
+      ]
+    },
+    {
+      "prompt": "commercial flat roofing contractors Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "google.com/maps",
+        "houzz.com",
+        "nextdoor.com"
+      ]
+    },
+    {
+      "prompt": "commercial flat roofing contractors Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 3,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "bbb.org",
+        "thumbtack.com",
+        "yelp.com",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "roof inspection services Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Summit",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "negative"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": true,
+          "position": 3,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "reddit.com/r/Roofing",
+        "nextdoor.com",
+        "angi.com",
+        "summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "roof inspection services Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "houzz.com",
+        "yelp.com",
+        "google.com/maps"
+      ]
+    },
+    {
+      "prompt": "roof inspection services Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "negative"
+        }
+      ],
+      "citedSources": [
+        "thumbtack.com",
+        "angi.com",
+        "bbb.org"
+      ]
+    },
+    {
+      "prompt": "roof inspection services Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "nextdoor.com",
+        "google.com/maps",
+        "reddit.com/r/Roofing"
+      ]
+    },
+    {
+      "prompt": "asphalt shingle roofing companies Denver",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "yelp.com",
+        "bbb.org",
+        "houzz.com",
+        "summitroofing.com",
+        "blog.summitroofing.com",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "asphalt shingle roofing companies Denver",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "angi.com",
+        "reddit.com/r/Roofing",
+        "thumbtack.com"
+      ]
+    },
+    {
+      "prompt": "asphalt shingle roofing companies Denver",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Peak Ridge",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "Cascade",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "google.com/maps",
+        "houzz.com",
+        "nextdoor.com"
+      ]
+    },
+    {
+      "prompt": "asphalt shingle roofing companies Denver",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": true,
+          "position": 1,
+          "sentiment": "positive"
+        },
+        {
+          "name": "AllWeather",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "citedSources": [
+        "bbb.org",
+        "thumbtack.com",
+        "yelp.com"
+      ]
+    },
+    {
+      "prompt": "most durable roofs for Colorado weather",
+      "surface": "chatgpt",
+      "entities": [
+        {
+          "name": "Peak Ridge Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "AllWeather Exteriors",
+          "mentioned": true,
+          "linked": true,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "reddit.com/r/Roofing",
+        "nextdoor.com",
+        "angi.com",
+        "summitroofing.com"
+      ]
+    },
+    {
+      "prompt": "most durable roofs for Colorado weather",
+      "surface": "google-ai",
+      "entities": [
+        {
+          "name": "Summit Roofing Co",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        },
+        {
+          "name": "Cascade Roof Pros",
+          "mentioned": true,
+          "linked": false,
+          "position": 2,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "houzz.com",
+        "yelp.com",
+        "google.com/maps",
+        "peakridgeroofing.com"
+      ]
+    },
+    {
+      "prompt": "most durable roofs for Colorado weather",
+      "surface": "perplexity",
+      "entities": [
+        {
+          "name": "Summit Roofing",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "citedSources": [
+        "thumbtack.com",
+        "angi.com",
+        "bbb.org"
+      ]
+    },
+    {
+      "prompt": "most durable roofs for Colorado weather",
+      "surface": "gemini",
+      "entities": [
+        {
+          "name": "Summit",
+          "mentioned": true,
+          "linked": false,
+          "position": 1,
+          "sentiment": "negative"
+        }
+      ],
+      "citedSources": [
+        "nextdoor.com",
+        "google.com/maps",
+        "reddit.com/r/Roofing"
+      ]
+    }
+  ]
+}

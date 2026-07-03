@@ -1,0 +1,10 @@
+{
+  "name": "ai-visibility",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node --test tests/",
+    "report": "node bin/generate-report.mjs"
+  }
+}
