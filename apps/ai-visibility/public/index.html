@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Visibility Tracker — Is AI recommending you, or your competitor? | Myers Digital Consulting</title>
+  <meta name="description" content="Get a free AI Visibility Report. See exactly where your brand shows up across ChatGPT, Gemini, Perplexity, and Google AI — and who's beating you to the answer.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Visibility Tracker — Is AI recommending you, or your competitor?">
+  <meta property="og:description" content="Free AI Visibility Report: see where your brand shows up across ChatGPT, Gemini, Perplexity, and Google AI — and who's beating you to the answer.">
+  <meta property="og:site_name" content="Myers Digital Consulting">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI Visibility Tracker — Is AI recommending you, or your competitor?">
+  <meta name="twitter:description" content="Free AI Visibility Report across ChatGPT, Gemini, Perplexity, and Google AI.">
+  <style>
+    :root {
+      --ink: #101828;
+      --ink-soft: #475467;
+      --ink-faint: #667085;
+      --accent: #4338ca;
+      --accent-deep: #3730a3;
+      --accent-tint: #eef2ff;
+      --surface: #ffffff;
+      --canvas: #f8fafc;
+      --line: #e4e7ec;
+      --good: #067647;
+      --radius: 12px;
+      --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 8px 24px rgba(16, 24, 40, .07);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--canvas);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+    a { color: var(--accent); }
+
+    /* ---------- Header ---------- */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 0;
+    }
+    .logo { font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
+    .logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 24px; align-items: center; font-size: .95rem; }
+    .nav-links a { color: var(--ink-soft); text-decoration: none; }
+    .nav-links a:hover { color: var(--ink); }
+    .nav-cta {
+      background: var(--accent); color: #fff !important;
+      padding: 9px 16px; border-radius: 8px; font-weight: 600;
+    }
+    .nav-cta:hover { background: var(--accent-deep); }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      background:
+        radial-gradient(900px 420px at 85% -10%, rgba(99, 102, 241, .16), transparent 65%),
+        radial-gradient(700px 360px at 5% 110%, rgba(67, 56, 202, .10), transparent 60%),
+        var(--surface);
+      border-bottom: 1px solid var(--line);
+      padding: 88px 0 96px;
+      text-align: center;
+    }
+    .eyebrow {
+      display: inline-block;
+      background: var(--accent-tint); color: var(--accent-deep);
+      font-size: .8rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+      padding: 6px 14px; border-radius: 999px; margin-bottom: 22px;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.12; letter-spacing: -.02em; font-weight: 800;
+      max-width: 780px; margin: 0 auto 20px;
+    }
+    h1 em { font-style: normal; color: var(--accent); }
+    .sub {
+      font-size: clamp(1.05rem, 2vw, 1.2rem);
+      color: var(--ink-soft);
+      max-width: 660px; margin: 0 auto 34px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent); color: #fff;
+      font-size: 1.05rem; font-weight: 600;
+      padding: 15px 30px; border-radius: 10px;
+      text-decoration: none; border: none; cursor: pointer;
+      box-shadow: 0 4px 14px rgba(67, 56, 202, .30);
+      transition: background .15s ease, transform .15s ease;
+    }
+    .btn:hover { background: var(--accent-deep); transform: translateY(-1px); }
+    .surfaces {
+      margin-top: 44px;
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;
+      color: var(--ink-faint); font-size: .9rem;
+    }
+    .surfaces .chip {
+      border: 1px solid var(--line); background: var(--surface);
+      border-radius: 999px; padding: 7px 16px; font-weight: 500; color: var(--ink-soft);
+    }
+
+    /* ---------- Sections ---------- */
+    section { padding: 76px 0; }
+    .section-head { text-align: center; max-width: 640px; margin: 0 auto 46px; }
+    h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); letter-spacing: -.015em; margin-bottom: 12px; }
+    .section-head p { color: var(--ink-soft); }
+
+    /* ---------- What you'll get ---------- */
+    .grid {
+      display: grid; gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .card {
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow);
+    }
+    .card .k {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 38px; height: 38px; border-radius: 10px;
+      background: var(--accent-tint); color: var(--accent-deep);
+      font-weight: 700; margin-bottom: 14px; font-size: 1rem;
+    }
+    .card h3 { font-size: 1.08rem; margin-bottom: 8px; letter-spacing: -.01em; }
+    .card p { color: var(--ink-soft); font-size: .95rem; }
+
+    /* ---------- Form ---------- */
+    .audit { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    form {
+      max-width: 560px; margin: 0 auto;
+      background: var(--canvas); border: 1px solid var(--line);
+      border-radius: var(--radius); padding: 34px; box-shadow: var(--shadow);
+    }
+    .field { margin-bottom: 18px; }
+    label { display: block; font-weight: 600; font-size: .92rem; margin-bottom: 6px; }
+    label .hint { font-weight: 400; color: var(--ink-faint); }
+    input, textarea {
+      width: 100%; font: inherit; color: var(--ink);
+      background: var(--surface); border: 1px solid #d0d5dd; border-radius: 8px;
+      padding: 11px 13px;
+    }
+    input:focus, textarea:focus {
+      outline: none; border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(67, 56, 202, .15);
+    }
+    textarea { min-height: 96px; resize: vertical; }
+    form .btn { width: 100%; margin-top: 4px; }
+    .form-note { text-align: center; color: var(--ink-faint); font-size: .85rem; margin-top: 14px; }
+    #confirmation {
+      display: none;
+      max-width: 560px; margin: 0 auto; text-align: center;
+      background: #ecfdf3; border: 1px solid #abefc6; border-radius: var(--radius);
+      padding: 40px 30px;
+    }
+    #confirmation h3 { color: var(--good); margin-bottom: 8px; }
+    #confirmation p { color: var(--ink-soft); }
+
+    /* ---------- Methodology ---------- */
+    .method {
+      max-width: 720px; margin: 0 auto;
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: var(--radius); padding: 34px; box-shadow: var(--shadow);
+    }
+    .formula {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .92rem; background: var(--accent-tint); color: var(--accent-deep);
+      border-radius: 8px; padding: 16px 18px; margin: 16px 0;
+      overflow-x: auto; white-space: nowrap;
+    }
+    .method p { color: var(--ink-soft); font-size: .97rem; }
+    .method p + p { margin-top: 12px; }
+
+    /* ---------- Pricing ---------- */
+    .plans {
+      display: grid; gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      align-items: stretch;
+    }
+    .plan {
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: var(--radius); padding: 28px 24px;
+      display: flex; flex-direction: column; box-shadow: var(--shadow);
+      position: relative;
+    }
+    .plan.popular { border: 2px solid var(--accent); }
+    .badge {
+      position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+      background: var(--accent); color: #fff;
+      font-size: .74rem; font-weight: 700; letter-spacing: .03em;
+      padding: 4px 12px; border-radius: 999px; white-space: nowrap;
+    }
+    .plan h3 { font-size: 1.05rem; margin-bottom: 6px; }
+    .price { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; }
+    .price small { font-size: .95rem; font-weight: 500; color: var(--ink-faint); }
+    .plan ul { list-style: none; margin: 16px 0 22px; flex: 1; }
+    .plan li {
+      color: var(--ink-soft); font-size: .92rem; padding: 5px 0 5px 24px; position: relative;
+    }
+    .plan li::before {
+      content: "✓"; position: absolute; left: 0; color: var(--good); font-weight: 700;
+    }
+    .plan .btn, .plan .btn-line {
+      width: 100%; text-align: center; font-size: .95rem; padding: 11px 0;
+    }
+    .btn-line {
+      display: inline-block; border: 1px solid #d0d5dd; border-radius: 10px;
+      color: var(--ink); font-weight: 600; text-decoration: none;
+      transition: border-color .15s ease;
+    }
+    .btn-line:hover { border-color: var(--accent); color: var(--accent-deep); }
+
+    /* ---------- Footer ---------- */
+    footer {
+      border-top: 1px solid var(--line); background: var(--surface);
+      padding: 34px 0; text-align: center; color: var(--ink-faint); font-size: .9rem;
+    }
+    footer a { color: var(--ink-soft); }
+
+    @media (max-width: 640px) {
+      .nav-links a:not(.nav-cta) { display: none; }
+      .hero { padding: 60px 0 68px; }
+      section { padding: 56px 0; }
+      form, .method { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <div class="logo">AI Visibility <span>Tracker</span></div>
+      <nav class="nav-links">
+        <a href="#what-you-get">What you get</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#audit" class="nav-cta">Free audit</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Free AI Visibility Report</div>
+      <h1>Is AI recommending you — or <em>your competitor</em>?</h1>
+      <p class="sub">Get a free AI Visibility Report. See exactly where your brand shows up across ChatGPT, Gemini, Perplexity, and Google AI — and who's beating you to the answer.</p>
+      <a class="btn" href="#audit">Run my free AI visibility audit &rarr;</a>
+      <div class="surfaces">
+        <span class="chip">ChatGPT</span>
+        <span class="chip">Google AI</span>
+        <span class="chip">Perplexity</span>
+        <span class="chip">Gemini</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="what-you-get">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What you'll get</h2>
+        <p>One report. Five answers your marketing team can act on this week.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="k">01</div>
+          <h3>Your Visibility Score (0&ndash;100) + verdict</h3>
+          <p>A single, comparable number for how visible your brand is in AI answers — with a plain-English verdict on where you stand.</p>
+        </div>
+        <div class="card">
+          <div class="k">02</div>
+          <h3>Appearance across 4 AI surfaces</h3>
+          <p>Where you show up — and where you don't — across ChatGPT, Google AI, Perplexity, and Gemini for the questions your buyers actually ask.</p>
+        </div>
+        <div class="card">
+          <div class="k">03</div>
+          <h3>Head-to-head share of voice</h3>
+          <p>You versus the competitor you name: who gets mentioned more often when AI answers your category's buying questions.</p>
+        </div>
+        <div class="card">
+          <div class="k">04</div>
+          <h3>Top 3 cited sources in your category</h3>
+          <p>The sites AI engines lean on when they answer. If you're not on them, that's your content roadmap.</p>
+        </div>
+        <div class="card">
+          <div class="k">05</div>
+          <h3>Your single biggest gap</h3>
+          <p>The one place where fixing your AI visibility would move the needle most — called out explicitly, not buried in a chart.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="audit" class="audit">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Run your free AI visibility audit</h2>
+        <p>Tell us four things. We'll run the prompts, score the answers, and send your report.</p>
+      </div>
+
+      <form id="audit-form" method="POST">
+        <div class="field">
+          <label for="brand">Brand / website</label>
+          <input type="text" id="brand" name="brand" required placeholder="e.g. Acme Roofing — acmeroofing.com">
+        </div>
+        <div class="field">
+          <label for="competitor">Primary competitor</label>
+          <input type="text" id="competitor" name="competitor" required placeholder="Who do you lose deals to?">
+        </div>
+        <div class="field">
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" required placeholder="you@company.com">
+        </div>
+        <div class="field">
+          <label for="questions">What do customers ask AI before buying from you? <span class="hint">(one or two questions)</span></label>
+          <textarea id="questions" name="questions" required placeholder="e.g. &quot;Best roofing company near Denver?&quot; or &quot;Is metal roofing worth it?&quot;"></textarea>
+        </div>
+        <button type="submit" class="btn">Run my free AI visibility audit &rarr;</button>
+        <p class="form-note">No spam, no obligation. We reply with your report — that's it.</p>
+      </form>
+
+      <div id="confirmation" role="status">
+        <h3>Thanks — we're on it.</h3>
+        <p>Your audit request is in. We'll run your brand and competitor across ChatGPT, Google AI, Perplexity, and Gemini, and we'll be in touch at the email you gave us with your Visibility Report.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="methodology">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Transparent methodology</h2>
+        <p>No black box. Every score in your report is computed the same way, and we publish the formula.</p>
+      </div>
+      <div class="method">
+        <p>We run your buyers' real questions across ChatGPT, Google AI, Perplexity, and Gemini, then score what comes back:</p>
+        <div class="formula">Score = 0.4&times;(prompt appearance rate) + 0.3&times;(citation/link rate) + 0.2&times;(prominence) + 0.1&times;(sentiment), scaled 0&ndash;100</div>
+        <p>Prominence is the mean of 1/position of your brand's mention across the answers where it appears (first-mentioned = 1.0). Sentiment maps positive = 1, neutral = 0.5, negative = 0. AI answers vary run to run, so scores are directional and we report changes over time rather than false precision.</p>
+        <p>Full definitions, worked examples, and honest limitations: <a href="../docs/methodology.md">read the full methodology</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Simple pricing</h2>
+        <p>Start with the free audit. Keep tracking when you're ready.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>Starter</h3>
+          <div class="price">$49<small>/mo</small></div>
+          <ul>
+            <li>1 brand tracked</li>
+            <li>Monthly Visibility Report</li>
+            <li>All 4 AI surfaces</li>
+            <li>1 competitor head-to-head</li>
+          </ul>
+          <a class="btn-line" href="#audit">Start with the free audit</a>
+        </div>
+        <div class="plan">
+          <h3>Growth</h3>
+          <div class="price">$149<small>/mo</small></div>
+          <ul>
+            <li>Everything in Starter</li>
+            <li>More tracked prompts</li>
+            <li>Up to 3 competitors</li>
+            <li>Score-movement alerts</li>
+          </ul>
+          <a class="btn-line" href="#audit">Start with the free audit</a>
+        </div>
+        <div class="plan popular">
+          <div class="badge">Most popular — white-label, multi-client</div>
+          <h3>Agency</h3>
+          <div class="price">$449<small>/mo</small></div>
+          <ul>
+            <li>White-label reports, your brand</li>
+            <li>Multiple client brands</li>
+            <li>Competitor overtake alerts</li>
+            <li>Bill your clients your way</li>
+          </ul>
+          <a class="btn" href="mailto:myersdigitalconsulting@gmail.com?subject=Agency%20plan%20—%20book%20a%20call">Book a call</a>
+        </div>
+        <div class="plan">
+          <h3>Enterprise</h3>
+          <div class="price">from $1,500</div>
+          <ul>
+            <li>Custom prompt sets &amp; markets</li>
+            <li>Multi-brand portfolios</li>
+            <li>Dedicated analyst review</li>
+          </ul>
+          <a class="btn-line" href="mailto:myersdigitalconsulting@gmail.com?subject=Enterprise%20—%20talk%20to%20us">Talk to us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p>A Myers Digital Consulting product</p>
+    </div>
+  </footer>
+
+  <!--
+    FORM SUBMISSION SETUP
+    =====================
+    The form below posts to FORM_ENDPOINT (defined at the top of the script).
+    Out of the box it is UNSET (empty string): submission is intercepted,
+    a confirmation message is shown, and the payload is logged to the console
+    so you can verify the fields during development.
+
+    To go live, set FORM_ENDPOINT to a real endpoint, e.g.:
+      - Formspree: create a form at https://formspree.io, then set
+          const FORM_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+      - Your own endpoint: any URL that accepts a POST of this form's fields
+          const FORM_ENDPOINT = "https://api.yourdomain.com/audit-request";
+    When FORM_ENDPOINT is set, the form's action is pointed at it and the
+    browser performs a normal POST submission.
+  -->
+  <script>
+    const FORM_ENDPOINT = ""; // <-- set to your Formspree URL or own endpoint to go live
+
+    (function () {
+      const form = document.getElementById("audit-form");
+      const confirmation = document.getElementById("confirmation");
+
+      if (FORM_ENDPOINT) {
+        form.setAttribute("action", FORM_ENDPOINT);
+        return; // normal POST submission takes over
+      }
+
+      // Native validation runs first; this handler only fires on a valid form.
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const payload = {
+          brand: form.brand.value.trim(),
+          competitor: form.competitor.value.trim(),
+          email: form.email.value.trim(),
+          questions: form.questions.value.trim(),
+          submittedAt: new Date().toISOString()
+        };
+        console.log("[ai-visibility] audit request (FORM_ENDPOINT unset — payload not sent):", payload);
+
+        form.style.display = "none";
+        confirmation.style.display = "block";
+        confirmation.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    })();
+  </script>
+</body>
+</html>
